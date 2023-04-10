@@ -1,2 +1,2 @@
-# S206_L1_repository
+# S206 - L1: Repository
 Repositório da aula de Qualidade de Software - laboratório
