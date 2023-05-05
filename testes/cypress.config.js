@@ -5,7 +5,7 @@ module.exports = defineConfig({
   e2e: {
     setupNodeEvents(on, config) {
       config.env.baseurl = process.env.BASE_URL
-      config.env.username = process.env.USERNAME
+      config.env.Username = process.env.USER_NAME
       config.env.firstName = process.env.FIRST_NAME
       config.env.lastName = process.env.LAST_NAME
       config.env.password = process.env.PASSWORD
