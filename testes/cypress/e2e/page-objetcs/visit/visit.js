@@ -1,6 +1,6 @@
 class visit{
     visit(){
-        cy.visit(Cypress.env('BASE_URL'))
+        cy.visit(Cypress.env('baseurl'))
     }
 }
 export default visit;
