@@ -2,8 +2,10 @@ const { defineConfig } = require("cypress");
 require('dotenv').config()
 
 module.exports = defineConfig({
+  reporter:'cypress-mochawesome-reporter',
   e2e: {
     setupNodeEvents(on, config) {
+      require('cypress-mochawesome-reporter/plugin')(on);
       config.env.baseurl = process.env.BASE_URL
       config.env.Username = process.env.USER_NAME
       config.env.firstName = process.env.FIRST_NAME
