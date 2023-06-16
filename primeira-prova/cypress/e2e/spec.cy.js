@@ -16,6 +16,9 @@ describe('Cenário: validando o dashboard', () => {
   });
 
   it('Caso: validando se pede senha do usuário ao fazer login', () => {
-    
+    UI.visit();
+    UI.loginButton();
+    UI.writeInformations();
+    UI.alert();
   });
 });
